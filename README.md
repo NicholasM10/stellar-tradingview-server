@@ -1,2 +1,2 @@
 # stellar-tradingview-server
- Quick TradingView Server for buying/selling on Stellar Network
+ Quick TradingView Server for buying/selling XLM/USDC on Stellar Network
