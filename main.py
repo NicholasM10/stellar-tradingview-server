@@ -19,7 +19,7 @@ native = Asset.native()
 usdc = Asset("USDC", "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN")
 size = 0
 xlmPrice = 0
-
+#Input these in "secret.txt" file as described
 secret = ""
 coinAPIKey = ""
 
@@ -37,7 +37,6 @@ def truncate(number, digits) -> float:
     return math.trunc(stepper * number) / stepper
 
 root_keypair = Keypair.from_secret(secret)
-
 public_key = root_keypair.public_key
 network_passphrase = Network.PUBLIC_NETWORK_PASSPHRASE
 server = Server(horizon_url="https://horizon.stellar.org")
